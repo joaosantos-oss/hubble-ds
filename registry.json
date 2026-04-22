@@ -36,8 +36,8 @@
       "description": "Utilitário cn() com tailwind-merge estendido para tokens do Hubble DS.",
       "dependencies": ["clsx", "tailwind-merge"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/hubble-theme.json",
-        "https://hubble.magazord.com/r/hubble-preset.json"
+        "https://project-sbxhj.vercel.app/r/hubble-theme.json",
+        "https://project-sbxhj.vercel.app/r/hubble-preset.json"
       ],
       "files": [
         {
@@ -52,7 +52,7 @@
       "title": "Label",
       "description": "Label acessível baseado em Radix UI.",
       "dependencies": ["@radix-ui/react-label"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/label/label.tsx",
@@ -66,7 +66,7 @@
       "title": "Icon",
       "description": "Wrapper tipado para ícones Phosphor. Apenas pesos regular e fill.",
       "dependencies": ["@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/icon/icon.tsx",
@@ -80,7 +80,7 @@
       "title": "Typography",
       "description": "Componente tipográfico com escala completa: headings, body e caption.",
       "dependencies": ["class-variance-authority"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/typography/typography.tsx",
@@ -94,7 +94,7 @@
       "title": "Separator",
       "description": "Divisor visual horizontal ou vertical.",
       "dependencies": ["@radix-ui/react-separator"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/separator/separator.tsx",
@@ -107,7 +107,7 @@
       "type": "registry:ui",
       "title": "Skeleton",
       "description": "Placeholder animado para conteúdo em carregamento.",
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/skeleton/skeleton.tsx",
@@ -121,7 +121,7 @@
       "title": "Badge",
       "description": "Destaca status, contagens ou categorias. 7 variantes, 2 formatos, modo icon-only.",
       "dependencies": ["class-variance-authority", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/badge/badge.tsx",
@@ -135,7 +135,7 @@
       "title": "Button",
       "description": "Botão de ação com variantes de estilo, tamanhos, ícones e estado de loading.",
       "dependencies": ["@radix-ui/react-slot", "class-variance-authority", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/button/button.tsx",
@@ -150,8 +150,8 @@
       "description": "Agrupa botões relacionados com borda compartilhada.",
       "dependencies": ["class-variance-authority"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -166,7 +166,7 @@
       "title": "Avatar",
       "description": "Imagem de perfil com fallback para iniciais. Variantes de tamanho e formato.",
       "dependencies": ["@radix-ui/react-avatar", "class-variance-authority"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/avatar/avatar.tsx",
@@ -180,7 +180,7 @@
       "title": "Breadcrumb",
       "description": "Trilha de navegação hierárquica com suporte a ellipsis.",
       "dependencies": ["@radix-ui/react-slot", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/breadcrumb/breadcrumb.tsx",
@@ -194,7 +194,7 @@
       "title": "Checkbox",
       "description": "Caixa de seleção acessível com estados indeterminate e disabled.",
       "dependencies": ["@radix-ui/react-checkbox", "class-variance-authority", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/checkbox/checkbox.tsx",
@@ -207,7 +207,7 @@
       "type": "registry:ui",
       "title": "Input",
       "description": "Campo de texto, input de arquivo e grupo de inputs com ícones.",
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/input/input.tsx",
@@ -229,7 +229,7 @@
       "title": "Input OTP",
       "description": "Campo de entrada de código OTP com slots individuais.",
       "dependencies": ["input-otp"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/input-otp/input-otp.tsx",
@@ -243,7 +243,7 @@
       "title": "Radio Group",
       "description": "Grupo de opções mutuamente exclusivas.",
       "dependencies": ["@radix-ui/react-radio-group", "class-variance-authority", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/radio-group/radio-group.tsx",
@@ -257,7 +257,7 @@
       "title": "Select",
       "description": "Dropdown de seleção acessível baseado em Radix UI.",
       "dependencies": ["@radix-ui/react-select", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/select/select.tsx",
@@ -272,8 +272,8 @@
       "description": "Select com busca via Command palette.",
       "dependencies": ["@radix-ui/react-popover", "cmdk", "@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/select.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/select.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -288,7 +288,7 @@
       "title": "Slider",
       "description": "Controle deslizante para seleção de valores em intervalo.",
       "dependencies": ["@radix-ui/react-slider"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/slider/slider.tsx",
@@ -302,7 +302,7 @@
       "title": "Switch",
       "description": "Toggle on/off acessível.",
       "dependencies": ["@radix-ui/react-switch"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/switch/switch.tsx",
@@ -316,7 +316,7 @@
       "title": "Toggle",
       "description": "Botão toggle e grupo de toggles exclusivos.",
       "dependencies": ["@radix-ui/react-toggle", "@radix-ui/react-toggle-group", "class-variance-authority"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/toggle/toggle.tsx",
@@ -331,8 +331,8 @@
       "description": "Wrapper de campo de formulário com label, helper text e validação react-hook-form.",
       "dependencies": ["react-hook-form", "@hookform/resolvers", "zod"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/label.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/label.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -347,7 +347,7 @@
       "title": "Tabs",
       "description": "Navegação em abas com variantes de estilo.",
       "dependencies": ["@radix-ui/react-tabs", "class-variance-authority"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/tabs/tabs.tsx",
@@ -361,7 +361,7 @@
       "title": "Accordion",
       "description": "Conteúdo expansível em painéis verticais.",
       "dependencies": ["@radix-ui/react-accordion", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/accordion/accordion.tsx",
@@ -376,8 +376,8 @@
       "description": "Controles de paginação com navegação por páginas.",
       "dependencies": ["@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -391,7 +391,7 @@
       "type": "registry:ui",
       "title": "Table",
       "description": "Componentes primitivos de tabela acessível.",
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/table/table.tsx",
@@ -406,10 +406,10 @@
       "description": "Tabela de dados com ordenação, filtros e paginação via TanStack Table.",
       "dependencies": ["@tanstack/react-table"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/table.json",
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/pagination.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/table.json",
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/pagination.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -424,7 +424,7 @@
       "title": "Progress",
       "description": "Barra de progresso acessível.",
       "dependencies": ["@radix-ui/react-progress"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/progress/progress.tsx",
@@ -438,7 +438,7 @@
       "title": "Scroll Area",
       "description": "Área de scroll com scrollbar estilizada.",
       "dependencies": ["@radix-ui/react-scroll-area"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/scroll-area/scroll-area.tsx",
@@ -452,7 +452,7 @@
       "title": "Tooltip",
       "description": "Dica flutuante ao hover/focus.",
       "dependencies": ["@radix-ui/react-tooltip"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/tooltip/tooltip.tsx",
@@ -466,7 +466,7 @@
       "title": "Popover",
       "description": "Painel flutuante ancorado a um trigger.",
       "dependencies": ["@radix-ui/react-popover"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/popover/popover.tsx",
@@ -480,7 +480,7 @@
       "title": "Command",
       "description": "Palette de comandos com busca fuzzy via cmdk.",
       "dependencies": ["@radix-ui/react-dialog", "cmdk", "@phosphor-icons/react"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/command/command.tsx",
@@ -495,8 +495,8 @@
       "description": "Modal acessível com overlay, título e descrição.",
       "dependencies": ["@radix-ui/react-dialog", "@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -512,8 +512,8 @@
       "description": "Painel lateral deslizante via Vaul.",
       "dependencies": ["vaul", "@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -529,8 +529,8 @@
       "description": "Diálogo de confirmação de ação destrutiva.",
       "dependencies": ["@radix-ui/react-alert-dialog"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -545,7 +545,7 @@
       "title": "Toast",
       "description": "Notificações temporárias via Sonner.",
       "dependencies": ["sonner"],
-      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "registryDependencies": ["https://project-sbxhj.vercel.app/r/utils.json"],
       "files": [
         {
           "path": "src/components/toast/toast.tsx",
@@ -560,9 +560,9 @@
       "description": "Seletor de data com navegação por mês.",
       "dependencies": ["react-day-picker", "date-fns", "@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/popover.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/popover.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -578,10 +578,10 @@
       "description": "Input de data com popover de calendário.",
       "dependencies": ["date-fns", "@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/popover.json",
-        "https://hubble.magazord.com/r/calendar.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/popover.json",
+        "https://project-sbxhj.vercel.app/r/calendar.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -597,8 +597,8 @@
       "description": "Carrossel de slides com navegação por botões.",
       "dependencies": ["embla-carousel-react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
@@ -614,8 +614,8 @@
       "description": "Estado vazio com ícone, título, descrição e ação.",
       "dependencies": ["@phosphor-icons/react"],
       "registryDependencies": [
-        "https://hubble.magazord.com/r/button.json",
-        "https://hubble.magazord.com/r/utils.json"
+        "https://project-sbxhj.vercel.app/r/button.json",
+        "https://project-sbxhj.vercel.app/r/utils.json"
       ],
       "files": [
         {
