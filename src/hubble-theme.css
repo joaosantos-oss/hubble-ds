@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400&display=swap");
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #09090b;
+
+    --primary: #0071db;
+    --primary-foreground: #ffffff;
+    --primary-bg: #ebfbff;
+
+    --secondary: #f4f4f5;
+    --secondary-foreground: #18181b;
+
+    --muted: #f4f4f5;
+    --muted-foreground: #71717a;
+
+    --destructive: #b91c1c;
+    --destructive-foreground: #b91c1c;
+
+    --accent: #f4f4f5;
+    --accent-foreground: #18181b;
+    --accent-0: #fafafa;
+    --accent-2: #e4e4e7;
+    --accent-3: #d4d4d8;
+
+    --primary-accent: #ebfbff;
+    --primary-accent-2: #d1f4ff;
+
+    --destructive-accent: #fef2f2;
+
+    --ghost: rgba(255, 255, 255, 0.0001);
+    --outline-bg: rgba(255, 255, 255, 0.10);
+    --outline-active: rgba(0, 0, 0, 0.05);
+
+    --card: #ffffff;
+    --card-foreground: #09090b;
+    --card-border: #e4e4e7;
+
+    --input-bg: #ffffff;
+    --input: #d4d4d8;
+    --input-disabled: #e4e4e7;
+
+    --tooltip: #18181b;
+    --tooltip-foreground: #f4f4f5;
+
+    --sidebar: #f4f4f5;
+    --sidebar-foreground: #18181b;
+    --sidebar-accent: #f4f4f5;
+    --sidebar-border: #e4e4e7;
+    --sidebar-ring: #70e7ff;
+    --sidebar-muted: #71717a;
+
+    --border: #e4e4e7;
+    --border-50: #fafafa;
+    --border-100: #f4f4f5;
+    --border-200: #e4e4e7;
+    --border-300: #d4d4d8;
+    --border-primary: #0071db;
+    --border-primary-light: #ebfbff;
+    --border-destructive: #ef4444;
+
+    --ring: #70e7ff;
+    --ring-error: #fca5a5;
+
+    --destructive-bg: #fef2f2;
+    --destructive-subtle: #ffe2e2;
+    --success-bg: #dcfce7;
+    --success-text: #166534;
+    --warning-bg: #fef3c7;
+    --warning-text: #92400e;
+
+    --hover-primary: #008ae0;
+    --hover-secondary: #fafafa;
+    --hover-destructive: #fecaca;
+    --hover-ghost: rgba(0, 0, 0, 0.05);
+    --hover-outline: rgba(0, 0, 0, 0.05);
+
+    --disabled: #e4e4e7;
+    --disabled-foreground: #a1a1aa;
+
+    --backdrop: rgba(0, 0, 0, 0.30);
+
+    --radius: 8px;
+  }
+
+  .dark {
+    --background: #09090b;
+    --foreground: #fafafa;
+
+    --primary: #ebfbff;
+    --primary-foreground: #09090b;
+    --primary-bg: #0071db;
+
+    --secondary: #18181b;
+    --secondary-foreground: #f4f4f5;
+
+    --muted: #18181b;
+    --muted-foreground: #a1a1aa;
+
+    --destructive: #991b1b;
+    --destructive-foreground: #fecaca;
+
+    --accent: #18181b;
+    --accent-foreground: #f4f4f5;
+    --accent-0: #09090b;
+    --accent-2: #27272a;
+    --accent-3: #3f3f46;
+
+    --primary-accent: #051d33;
+    --primary-accent-2: #064374;
+
+    --destructive-accent: #450a0a;
+
+    --ghost: rgba(255, 255, 255, 0.0001);
+    --outline-bg: rgba(255, 255, 255, 0.05);
+    --outline-active: rgba(255, 255, 255, 0.15);
+
+    --card: #09090b;
+    --card-foreground: #fafafa;
+    --card-border: #3f3f46;
+
+    --input-bg: #09090b;
+    --input: #52525b;
+    --input-disabled: #27272a;
+
+    --tooltip: #f4f4f5;
+    --tooltip-foreground: #18181b;
+
+    --sidebar: #18181b;
+    --sidebar-foreground: #f4f4f5;
+    --sidebar-accent: #18181b;
+    --sidebar-border: #3f3f46;
+    --sidebar-ring: #00b3fa;
+    --sidebar-muted: #a1a1aa;
+
+    --border: #3f3f46;
+    --border-50: #18181b;
+    --border-100: #27272a;
+    --border-200: #3f3f46;
+    --border-300: #52525b;
+    --border-primary: #ebfbff;
+    --border-primary-light: #0071db;
+    --border-destructive: #b91c1c;
+
+    --ring: #00b3fa;
+    --ring-error: #ef4444;
+
+    --destructive-bg: #991b1b;
+    --destructive-subtle: #7f1d1d;
+    --success-bg: #14532d;
+    --success-text: #bbf7d0;
+    --warning-bg: #78350f;
+    --warning-text: #fde68a;
+
+    --hover-primary: #d1f4ff;
+    --hover-secondary: #18181b;
+    --hover-destructive: #7f1d1d;
+    --hover-ghost: rgba(255, 255, 255, 0.10);
+    --hover-outline: rgba(255, 255, 255, 0.10);
+
+    --disabled: #27272a;
+    --disabled-foreground: #52525b;
+  }
+
+  * {
+    @apply border-border box-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}

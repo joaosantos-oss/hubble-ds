@@ -4,11 +4,41 @@
   "homepage": "https://hubble.magazord.com",
   "items": [
     {
+      "name": "hubble-theme",
+      "type": "registry:theme",
+      "title": "Hubble Theme",
+      "description": "CSS vars do Hubble DS — tokens semânticos light e dark.",
+      "files": [
+        {
+          "path": "src/hubble-theme.css",
+          "type": "registry:theme",
+          "target": "src/hubble-theme.css"
+        }
+      ]
+    },
+    {
+      "name": "hubble-preset",
+      "type": "registry:file",
+      "title": "Hubble Tailwind Preset",
+      "description": "Preset Tailwind com paletas, tipografia, sombras e animações do Hubble DS.",
+      "files": [
+        {
+          "path": "hubble-preset.ts",
+          "type": "registry:file",
+          "target": "hubble-preset.ts"
+        }
+      ]
+    },
+    {
       "name": "utils",
       "type": "registry:lib",
       "title": "Utils",
       "description": "Utilitário cn() com tailwind-merge estendido para tokens do Hubble DS.",
       "dependencies": ["clsx", "tailwind-merge"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/hubble-theme.json",
+        "https://hubble.magazord.com/r/hubble-preset.json"
+      ],
       "files": [
         {
           "path": "src/lib/utils.ts",
