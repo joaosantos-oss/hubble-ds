@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =============================================================================
+   HUBBLE DESIGN SYSTEM — CSS VARIABLES
+   Fonte: Tokens_Json (Figma export)
+
+   Paletas de referência:
+     Falcon (primaria)  — brand cyan-blue  — #ebfbff … #051d33
+     Zinc   (secundaria)— neutral          — #fafafa  … #09090b
+     Red    (erro)      — Tailwind red     — #fef2f2  … #450a0a
+     Green  (sucesso)   — Tailwind green   — #f0fdf4  … #052e16
+     Amber  (alerta)    — Tailwind amber   — #fffbeb  … #451a03
+   ========================================================================== */
+
+@layer base {
+  /* ──────────────────────────────────────────────────────────────────────────
+     LIGHT THEME  (semantic-colors.hubble.json)
+     ────────────────────────────────────────────────────────────────────────── */
+  :root {
+    /* Surface */
+    --background: #ffffff;               /* white.alpha-100 */
+    --foreground: #09090b;               /* secundaria.950  */
+
+    /* Primary — Falcon.700 */
+    --primary: #0071db;
+    --primary-foreground: #ffffff;       /* text-negative = background */
+    --primary-bg: #ebfbff;               /* Falcon.50 — superfície/ponto sobre primary */
+
+    /* Secondary — zinc.100 */
+    --secondary: #f4f4f5;                /* secundaria.100 */
+    --secondary-foreground: #18181b;     /* secundaria.900 */
+
+    /* Muted — zinc.100 */
+    --muted: #f4f4f5;
+    --muted-foreground: #71717a;         /* secundaria.500 */
+
+    /* Destructive — red.700 */
+    --destructive: #b91c1c;
+    --destructive-foreground: #b91c1c;
+
+    /* Accent — zinc (semantic-colors → accent) */
+    --accent: #f4f4f5;                   /* accent = zinc.100 */
+    --accent-foreground: #18181b;
+    --accent-0: #fafafa;                 /* accent-0 = zinc.50 */
+    --accent-2: #e4e4e7;                 /* accent-2 = zinc.200 */
+    --accent-3: #d4d4d8;                 /* accent-3 = zinc.300 */
+
+    /* Primary accent (semantic-colors → accent.primary-accent / primary-accent-2) */
+    --primary-accent: #ebfbff;           /* primary-accent = primaria.50 */
+    --primary-accent-2: #d1f4ff;         /* primary-accent-2 = primaria.100 */
+
+    /* Destructive accent (semantic-colors → accent.destructive-accent) */
+    --destructive-accent: #fef2f2;       /* destructive-accent = red.50 */
+
+    /* Ghost / Outline bg (semantic-colors → ghost / outline) */
+    --ghost: rgba(255, 255, 255, 0.0001); /* ghost = white.alpha-01 */
+    --outline-bg: rgba(255, 255, 255, 0.10); /* outline = white.alpha-10 */
+    --outline-active: rgba(0, 0, 0, 0.05);   /* outline-active = black.alpha-5 */
+
+    /* Card (card.json) */
+    --card: #ffffff;                     /* background */
+    --card-foreground: #09090b;
+    --card-border: #e4e4e7;              /* borders.border-200 = zinc.200 */
+
+    /* Input (input.json) */
+    --input-bg: #ffffff;                 /* background */
+    --input: #d4d4d8;                    /* input-border = borders.border-300 = zinc.300 */
+    --input-disabled: #e4e4e7;           /* disable = zinc.200 */
+
+    /* Tooltip */
+    --tooltip: #18181b;                  /* foreground.secondary-foreground = zinc.900 */
+    --tooltip-foreground: #f4f4f5;       /* muted = zinc.100 */
+
+    /* Sidebar (sidebar.json) */
+    --sidebar: #f4f4f5;                  /* background.secundary-background = zinc.100 */
+    --sidebar-foreground: #18181b;       /* foreground.secondary-foreground = zinc.900 */
+    --sidebar-accent: #f4f4f5;           /* accent.accent = zinc.100 */
+    --sidebar-border: #e4e4e7;           /* borders.border-200 = zinc.200 */
+    --sidebar-ring: #70e7ff;             /* focus.ring = Falcon.300 */
+    --sidebar-muted: #71717a;            /* text.muted-text = zinc.500 */
+
+    /* Borders */
+    --border: #e4e4e7;                   /* borders.border-200 = zinc.200 */
+    --border-50: #fafafa;
+    --border-100: #f4f4f5;
+    --border-200: #e4e4e7;
+    --border-300: #d4d4d8;
+    --border-primary: #0071db;           /* Falcon.700 */
+    --border-primary-light: #ebfbff;     /* Falcon.50 */
+    --border-destructive: #ef4444;       /* erro.500 */
+
+    /* Focus rings (effect-styles.json) */
+    --ring: #70e7ff;                     /* focus.ring = Falcon.300 */
+    --ring-error: #fca5a5;               /* focus.ring-error = red.300 */
+
+    /* Badge / Label semantic backgrounds */
+    --destructive-bg: #fef2f2;           /* button destructive bg = red.50 */
+    --destructive-subtle: #ffe2e2;       /* badge destructive bg  = red.100 */
+    --success-bg: #dcfce7;               /* badge/label success bg = green.100 */
+    --success-text: #166534;             /* badge/label success text = green.800 */
+    --warning-bg: #fef3c7;               /* badge/label warning bg = amber.100 */
+    --warning-text: #92400e;             /* badge/label warning text = amber.800 */
+
+    /* Hover (semantic-colors.hubble.json → hover) */
+    --hover-primary: #008ae0;            /* primaria.600 = Falcon.600 */
+    --hover-secondary: #fafafa;          /* secundaria.50 = zinc.50 */
+    --hover-destructive: #fecaca;        /* Tailwind.red.200 */
+    --hover-ghost: rgba(0, 0, 0, 0.05); /* black.alpha-5 */
+    --hover-outline: rgba(0, 0, 0, 0.05);/* black.alpha-5 */
+
+    /* Disabled */
+    --disabled: #e4e4e7;                 /* zinc.200 */
+    --disabled-foreground: #a1a1aa;      /* zinc.400 */
+
+    /* Backdrop */
+    --backdrop: rgba(0, 0, 0, 0.30);
+
+    /* Radius (border.json) */
+    --radius: 8px;
+  }
+
+  /* ──────────────────────────────────────────────────────────────────────────
+     DARK THEME  (semantic-colors.hubble-dark.json)
+     ────────────────────────────────────────────────────────────────────────── */
+  .dark {
+    --background: #09090b;               /* secundaria.950 */
+    --foreground: #fafafa;               /* secundaria.50  */
+
+    --primary: #ebfbff;                  /* Falcon.50 — button primary bg dark */
+    --primary-foreground: #09090b;       /* zinc.950 — button primary text dark */
+    --primary-bg: #0071db;               /* Falcon.700 — superfície/ponto sobre primary dark */
+
+    --secondary: #18181b;                /* secundaria.900 */
+    --secondary-foreground: #f4f4f5;     /* secundaria.100 */
+
+    --muted: #18181b;
+    --muted-foreground: #a1a1aa;         /* secundaria.400 = zinc.400 */
+
+    --destructive: #991b1b;              /* red.800 */
+    --destructive-foreground: #fecaca;   /* red.200 */
+
+    --accent: #18181b;
+    --accent-foreground: #f4f4f5;
+    --accent-0: #09090b;                 /* accent-0 dark = zinc.950 */
+    --accent-2: #27272a;                 /* accent-2 dark = zinc.800 */
+    --accent-3: #3f3f46;                 /* accent-3 dark = zinc.700 */
+
+    --primary-accent: #051d33;           /* primary-accent dark = primaria.950 */
+    --primary-accent-2: #064374;         /* primary-accent-2 dark = primaria.900 */
+
+    --destructive-accent: #450a0a;       /* destructive-accent dark = red.950 */
+
+    --ghost: rgba(255, 255, 255, 0.0001); /* ghost = white.alpha-01 */
+    --outline-bg: rgba(255, 255, 255, 0.05);  /* outline dark = white.alpha-5 */
+    --outline-active: rgba(255, 255, 255, 0.15); /* outline-active dark = white.alpha-15 */
+
+    --card: #09090b;
+    --card-foreground: #fafafa;
+    --card-border: #3f3f46;              /* borders.border-200 dark = zinc.700 */
+
+    --input-bg: #09090b;
+    --input: #52525b;                    /* borders.border-300 dark = zinc.600 */
+    --input-disabled: #27272a;           /* disable dark = zinc.800 */
+
+    --tooltip: #f4f4f5;                  /* muted dark = zinc.100 */
+    --tooltip-foreground: #18181b;       /* secondary-foreground dark = zinc.900 */
+
+    --sidebar: #18181b;                  /* background.secundary-background dark = zinc.900 */
+    --sidebar-foreground: #f4f4f5;
+    --sidebar-accent: #18181b;           /* accent.accent dark = zinc.900 */
+    --sidebar-border: #3f3f46;           /* borders.border-200 dark = zinc.700 */
+    --sidebar-ring: #00b3fa;             /* focus.ring dark = Falcon.500 */
+    --sidebar-muted: #a1a1aa;            /* muted-foreground dark = zinc.400 */
+
+    --border: #3f3f46;                   /* zinc.700 */
+    --border-50: #18181b;
+    --border-100: #27272a;
+    --border-200: #3f3f46;
+    --border-300: #52525b;
+    --border-primary: #ebfbff;           /* Falcon.50 */
+    --border-primary-light: #0071db;     /* primary-background dark = Falcon.700 */
+    --border-destructive: #b91c1c;       /* erro.700 */
+
+    --ring: #00b3fa;                     /* focus.ring dark = Falcon.500 */
+    --ring-error: #ef4444;               /* focus.ring-error dark = red.500 */
+
+    /* Badge / Label semantic backgrounds dark */
+    --destructive-bg: #991b1b;           /* button destructive bg dark = red.800 */
+    --destructive-subtle: #7f1d1d;       /* badge destructive bg dark  = red.900 */
+    --success-bg: #14532d;               /* badge/label success bg dark = green.900 */
+    --success-text: #bbf7d0;             /* badge/label success text dark = green.200 */
+    --warning-bg: #78350f;               /* badge/label warning bg dark = amber.900 */
+    --warning-text: #fde68a;             /* badge/label warning text dark = amber.200 */
+
+    /* Hover dark (semantic-colors.hubble-dark.json → hover) */
+    --hover-primary: #d1f4ff;              /* primaria.100 = Falcon.100 */
+    --hover-secondary: #18181b;            /* secundaria.900 = zinc.900 */
+    --hover-destructive: #7f1d1d;          /* Tailwind.red.900 */
+    --hover-ghost: rgba(255, 255, 255, 0.10); /* white.alpha-10 */
+    --hover-outline: rgba(255, 255, 255, 0.10);/* white.alpha-10 */
+
+    --disabled: #27272a;                 /* zinc.800 */
+    --disabled-foreground: #52525b;      /* zinc.600 */
+  }
+
+  /* ──────────────────────────────────────────────────────────────────────────
+     BASE RESET
+     ────────────────────────────────────────────────────────────────────────── */
+  * {
+    @apply border-border box-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}

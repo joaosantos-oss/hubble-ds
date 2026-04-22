@@ -1,0 +1,10 @@
+{
+  "light": {
+    "$type": "fontWeight",
+    "$value": 4
+  },
+  "full": {
+    "$type": "fontWeight",
+    "$value": 12
+  }
+}

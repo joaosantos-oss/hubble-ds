@@ -1,0 +1,10 @@
+{
+  "popover": {
+    "$type": "color",
+    "$value": "{Semantico.foreground.secondary-foreground}"
+  },
+  "popover-foreground": {
+    "$type": "color",
+    "$value": "{Semantico.muted}"
+  }
+}

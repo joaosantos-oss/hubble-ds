@@ -1,0 +1,14 @@
+{
+  "input": {
+    "$type": "color",
+    "$value": "{Semantico.background.background}"
+  },
+  "input-disable": {
+    "$type": "color",
+    "$value": "{Semantico.disable}"
+  },
+  "input-border": {
+    "$type": "color",
+    "$value": "{Semantico.borders.border-300}"
+  }
+}

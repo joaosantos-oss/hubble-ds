@@ -1,0 +1,44 @@
+{
+  "text": {
+    "$type": "color",
+    "badge-text-primary": {
+      "$value": "{Semantico.text.text-negative}"
+    },
+    "badge-text-secundary": {
+      "$value": "{Semantico.text.text}"
+    },
+    "badge-text-destructive": {
+      "$value": "{Semantico.text.destructive-text}"
+    },
+    "badge-text-sucess": {
+      "$value": "{Semantico.text.sucess-text}"
+    },
+    "badge-text-warning": {
+      "$value": "{Semantico.text.warning-text}"
+    }
+  },
+  "background": {
+    "$type": "color",
+    "badge-bg-primary": {
+      "$value": "{Semantico.foreground.primary-foreground}"
+    },
+    "badge-bg-secundary": {
+      "$value": "{Semantico.background.secundary-background}"
+    },
+    "badge-bg-outline": {
+      "$value": "{Semantico.outline}"
+    },
+    "badge-bg-ghost": {
+      "$value": "{Semantico.ghost}"
+    },
+    "badge-bg-destructive": {
+      "$value": "{Semantico.accent.destructive-accent-2}"
+    },
+    "badge-bg-warning": {
+      "$value": "{Semantico.background.warning-background}"
+    },
+    "badge-bg-sucess": {
+      "$value": "{Semantico.background.sucess-background}"
+    }
+  }
+}

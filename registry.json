@@ -1,0 +1,598 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "hubble",
+  "homepage": "https://hubble.magazord.com",
+  "items": [
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "title": "Utils",
+      "description": "Utilitário cn() com tailwind-merge estendido para tokens do Hubble DS.",
+      "dependencies": ["clsx", "tailwind-merge"],
+      "files": [
+        {
+          "path": "src/lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "Label acessível baseado em Radix UI.",
+      "dependencies": ["@radix-ui/react-label"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/label/label.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "icon",
+      "type": "registry:ui",
+      "title": "Icon",
+      "description": "Wrapper tipado para ícones Phosphor. Apenas pesos regular e fill.",
+      "dependencies": ["@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/icon/icon.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "typography",
+      "type": "registry:ui",
+      "title": "Typography",
+      "description": "Componente tipográfico com escala completa: headings, body e caption.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/typography/typography.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Divisor visual horizontal ou vertical.",
+      "dependencies": ["@radix-ui/react-separator"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/separator/separator.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Placeholder animado para conteúdo em carregamento.",
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/skeleton/skeleton.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Destaca status, contagens ou categorias. 7 variantes, 2 formatos, modo icon-only.",
+      "dependencies": ["class-variance-authority", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/badge/badge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Botão de ação com variantes de estilo, tamanhos, ícones e estado de loading.",
+      "dependencies": ["@radix-ui/react-slot", "class-variance-authority", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/button/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "title": "Button Group",
+      "description": "Agrupa botões relacionados com borda compartilhada.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/button-group/button-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "Imagem de perfil com fallback para iniciais. Variantes de tamanho e formato.",
+      "dependencies": ["@radix-ui/react-avatar", "class-variance-authority"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/avatar/avatar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Trilha de navegação hierárquica com suporte a ellipsis.",
+      "dependencies": ["@radix-ui/react-slot", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/breadcrumb/breadcrumb.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "Caixa de seleção acessível com estados indeterminate e disabled.",
+      "dependencies": ["@radix-ui/react-checkbox", "class-variance-authority", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/checkbox/checkbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Campo de texto, input de arquivo e grupo de inputs com ícones.",
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/input/input.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "src/components/input/file-input.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "src/components/input/input-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:ui",
+      "title": "Input OTP",
+      "description": "Campo de entrada de código OTP com slots individuais.",
+      "dependencies": ["input-otp"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/input-otp/input-otp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "description": "Grupo de opções mutuamente exclusivas.",
+      "dependencies": ["@radix-ui/react-radio-group", "class-variance-authority", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/radio-group/radio-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Dropdown de seleção acessível baseado em Radix UI.",
+      "dependencies": ["@radix-ui/react-select", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/select/select.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "Select com busca via Command palette.",
+      "dependencies": ["@radix-ui/react-popover", "cmdk", "@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/select.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/select/combobox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "Controle deslizante para seleção de valores em intervalo.",
+      "dependencies": ["@radix-ui/react-slider"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/slider/slider.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "Toggle on/off acessível.",
+      "dependencies": ["@radix-ui/react-switch"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/switch/switch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "title": "Toggle",
+      "description": "Botão toggle e grupo de toggles exclusivos.",
+      "dependencies": ["@radix-ui/react-toggle", "@radix-ui/react-toggle-group", "class-variance-authority"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/toggle/toggle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "title": "Field",
+      "description": "Wrapper de campo de formulário com label, helper text e validação react-hook-form.",
+      "dependencies": ["react-hook-form", "@hookform/resolvers", "zod"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/label.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/field/field.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "Navegação em abas com variantes de estilo.",
+      "dependencies": ["@radix-ui/react-tabs", "class-variance-authority"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/tabs/tabs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "Conteúdo expansível em painéis verticais.",
+      "dependencies": ["@radix-ui/react-accordion", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/accordion/accordion.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "Controles de paginação com navegação por páginas.",
+      "dependencies": ["@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/pagination/pagination.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "Componentes primitivos de tabela acessível.",
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/table/table.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "Tabela de dados com ordenação, filtros e paginação via TanStack Table.",
+      "dependencies": ["@tanstack/react-table"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/table.json",
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/pagination.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/table/data-table.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "Barra de progresso acessível.",
+      "dependencies": ["@radix-ui/react-progress"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/progress/progress.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "title": "Scroll Area",
+      "description": "Área de scroll com scrollbar estilizada.",
+      "dependencies": ["@radix-ui/react-scroll-area"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/scroll-area/scroll-area.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Dica flutuante ao hover/focus.",
+      "dependencies": ["@radix-ui/react-tooltip"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/tooltip/tooltip.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "Painel flutuante ancorado a um trigger.",
+      "dependencies": ["@radix-ui/react-popover"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/popover/popover.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "Palette de comandos com busca fuzzy via cmdk.",
+      "dependencies": ["@radix-ui/react-dialog", "cmdk", "@phosphor-icons/react"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/command/command.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "Modal acessível com overlay, título e descrição.",
+      "dependencies": ["@radix-ui/react-dialog", "@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/dialog/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "description": "Painel lateral deslizante via Vaul.",
+      "dependencies": ["vaul", "@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/drawer/drawer.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "Diálogo de confirmação de ação destrutiva.",
+      "dependencies": ["@radix-ui/react-alert-dialog"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/alert-dialog/alert-dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "Notificações temporárias via Sonner.",
+      "dependencies": ["sonner"],
+      "registryDependencies": ["https://hubble.magazord.com/r/utils.json"],
+      "files": [
+        {
+          "path": "src/components/toast/toast.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "Seletor de data com navegação por mês.",
+      "dependencies": ["react-day-picker", "date-fns", "@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/popover.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/calendar/calendar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date Picker",
+      "description": "Input de data com popover de calendário.",
+      "dependencies": ["date-fns", "@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/popover.json",
+        "https://hubble.magazord.com/r/calendar.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/calendar/date-picker.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "Carrossel de slides com navegação por botões.",
+      "dependencies": ["embla-carousel-react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/carousel/carousel.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "title": "Empty State",
+      "description": "Estado vazio com ícone, título, descrição e ação.",
+      "dependencies": ["@phosphor-icons/react"],
+      "registryDependencies": [
+        "https://hubble.magazord.com/r/button.json",
+        "https://hubble.magazord.com/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/empty/empty.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}

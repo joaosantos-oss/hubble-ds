@@ -1,0 +1,10 @@
+{
+  "card": {
+    "$type": "color",
+    "$value": "{Semantico.background.background}"
+  },
+  "card-border": {
+    "$type": "color",
+    "$value": "{Semantico.borders.border-200}"
+  }
+}

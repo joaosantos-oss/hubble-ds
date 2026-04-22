@@ -1,0 +1,186 @@
+{
+  "Semantico": {
+    "$type": "color",
+    "text": {
+      "text": {
+        "$value": "{Semantico.foreground.foreground}"
+      },
+      "text-negative": {
+        "$value": "{Semantico.background.background}"
+      },
+      "text-active": {
+        "$value": "{Semantico.foreground.primary-foreground}"
+      },
+      "secundary-text": {
+        "$value": "{Semantico.foreground.secondary-foreground}"
+      },
+      "muted-text": {
+        "$value": "{Semantico.foreground.muted-foreground}"
+      },
+      "destructive-text": {
+        "$value": "{Semantico.foreground.destructive-foreground}"
+      },
+      "sucess-text": {
+        "$value": "{sucesso.200}"
+      },
+      "warning-text": {
+        "$value": "{alerta.200}"
+      }
+    },
+    "background": {
+      "background": {
+        "$value": "{secundaria.950}"
+      },
+      "primary-background": {
+        "$value": "{primaria.700}"
+      },
+      "secundary-background": {
+        "$value": "{secundaria.900}"
+      },
+      "desctructive-background": {
+        "$value": "{Tailwind.red.800}"
+      },
+      "warning-background": {
+        "$value": "{alerta.900}"
+      },
+      "sucess-background": {
+        "$value": "{sucesso.900}"
+      }
+    },
+    "foreground": {
+      "foreground": {
+        "$value": "{secundaria.50}"
+      },
+      "primary-foreground": {
+        "$value": "{primaria.50}"
+      },
+      "secondary-foreground": {
+        "$value": "{secundaria.100}"
+      },
+      "muted-foreground": {
+        "$value": "{secundaria.400}"
+      },
+      "destructive-foreground": {
+        "$value": "{Tailwind.red.200}"
+      }
+    },
+    "hover": {
+      "primary-hover": {
+        "$value": "{primaria.100}"
+      },
+      "secondary-hover": {
+        "$value": "{secundaria.900}"
+      },
+      "destructive-hover": {
+        "$value": "{Tailwind.red.900}"
+      },
+      "ghost-hover": {
+        "$value": "{white.alpha-10}"
+      },
+      "outline-hover": {
+        "$value": "{white.alpha-10}"
+      }
+    },
+    "primary": {
+      "$value": "{primaria.50}"
+    },
+    "ilustração": {
+      "color-ilu-1": {
+        "$value": "{primaria.700}"
+      },
+      "color-ilu-2": {
+        "$value": "{primaria.800}"
+      },
+      "color-ilu-3": {
+        "$value": "{secundaria.700}"
+      },
+      "color-ilu-4": {
+        "$value": "{Semantico.background.background}"
+      },
+      "color-ilu-5": {
+        "$value": "{secundaria.800}"
+      }
+    },
+    "secondary": {
+      "$value": "{secundaria.900}"
+    },
+    "destructive": {
+      "$value": "{Tailwind.red.800}"
+    },
+    "ghost": {
+      "$value": "{white.alpha-01}"
+    },
+    "outline": {
+      "$value": "{white.alpha-5}"
+    },
+    "muted": {
+      "$value": "{secundaria.900}"
+    },
+    "accent": {
+      "accent-0": {
+        "$value": "{secundaria.950}"
+      },
+      "accent": {
+        "$value": "{secundaria.900}"
+      },
+      "accent-2": {
+        "$value": "{secundaria.800}"
+      },
+      "accent-3": {
+        "$value": "{secundaria.700}"
+      },
+      "primary-accent": {
+        "$value": "{primaria.950}"
+      },
+      "primary-accent-2": {
+        "$value": "{primaria.900}"
+      },
+      "destructive-accent": {
+        "$value": "{Tailwind.red.950}"
+      },
+      "destructive-accent-2": {
+        "$value": "{Tailwind.red.900}"
+      }
+    },
+    "disable": {
+      "$value": "{secundaria.800}"
+    },
+    "borders": {
+      "border-50": {
+        "$value": "{secundaria.900}"
+      },
+      "border-100": {
+        "$value": "{secundaria.800}"
+      },
+      "border-200": {
+        "$value": "{secundaria.700}"
+      },
+      "border-300": {
+        "$value": "{secundaria.600}"
+      },
+      "border-primary": {
+        "$value": "{Semantico.primary}"
+      },
+      "border-primary-light": {
+        "$value": "{Semantico.background.primary-background}"
+      },
+      "border-destructive": {
+        "$value": "{erro.700}"
+      }
+    },
+    "outline-active": {
+      "$value": "{white.alpha-15}"
+    },
+    "backdrop": {
+      "$value": "{black.alpha-30}"
+    },
+    "focus": {
+      "ring": {
+        "$value": "{primaria.500}"
+      },
+      "ring-error": {
+        "$value": "{Tailwind.red.500}"
+      }
+    }
+  }
+}

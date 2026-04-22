@@ -1,0 +1,38 @@
+{
+  "text": {
+    "$type": "color",
+    "button-text-primary": {
+      "$value": "{Semantico.text.text-negative}"
+    },
+    "button-text-secundary": {
+      "$value": "{Semantico.text.text}"
+    },
+    "button-text-destructive": {
+      "$value": "{Semantico.text.destructive-text}"
+    }
+  },
+  "background": {
+    "$type": "color",
+    "button-bg-primary": {
+      "$value": "{Semantico.foreground.primary-foreground}"
+    },
+    "button-bg-secundary": {
+      "$value": "{Semantico.secondary}"
+    },
+    "button-bg-outline": {
+      "$value": "{Semantico.outline}"
+    },
+    "button-bg-ghost": {
+      "$value": "{Semantico.ghost}"
+    },
+    "button-bg-destructive": {
+      "$value": "{Semantico.accent.destructive-accent}"
+    }
+  },
+  "border": {
+    "$type": "color",
+    "button-border": {
+      "$value": "{Semantico.borders.border-200}"
+    }
+  }
+}

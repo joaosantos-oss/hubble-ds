@@ -1,0 +1,34 @@
+{
+  "rounded-none": {
+    "$type": "dimension",
+    "$value": "{0}"
+  },
+  "rounded-xs": {
+    "$type": "dimension",
+    "$value": "{0,5}"
+  },
+  "rounded-sm": {
+    "$type": "dimension",
+    "$value": "{1}"
+  },
+  "rounded-md": {
+    "$type": "dimension",
+    "$value": "{2}"
+  },
+  "rounded-lg": {
+    "$type": "dimension",
+    "$value": "{3}"
+  },
+  "rounded-xl": {
+    "$type": "dimension",
+    "$value": "{4}"
+  },
+  "rounded-2xl": {
+    "$type": "dimension",
+    "$value": "{6}"
+  },
+  "rounded-full": {
+    "$type": "dimension",
+    "$value": "{infinito}"
+  }
+}

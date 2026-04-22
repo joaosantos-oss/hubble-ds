@@ -1,0 +1,207 @@
+{
+  "shadow": {
+    "$type": "shadow",
+    "shadow-2xs": {
+      "$value": {
+        "color": "{2xs.color}",
+        "offsetX": "{2xs.x}",
+        "offsetY": "{2xs.y}",
+        "blur": "{2xs.blur}",
+        "spread": "{2xs.spread}"
+      }
+    },
+    "shadow-xs": {
+      "$value": {
+        "color": "{xs.color}",
+        "offsetX": "{xs.x}",
+        "offsetY": "{xs.y}",
+        "blur": "{xs.blur}",
+        "spread": "{xs.spread}"
+      }
+    },
+    "shadow-sm": {
+      "$value": [
+        {
+          "color": "{sm.color}",
+          "offsetX": "{sm.shadow-2.x2}",
+          "offsetY": "{sm.shadow-2.y}",
+          "blur": "{sm.shadow-2.blur}",
+          "spread": "{sm.shadow-2.spread}"
+        },
+        {
+          "color": "{sm.color}",
+          "offsetX": "{sm.shadow-1.x}",
+          "offsetY": "{sm.shadow-1.y}",
+          "blur": "{sm.shadow-1.blur}",
+          "spread": "{sm.shadow-1.spread}"
+        }
+      ]
+    },
+    "shadow-md": {
+      "$value": [
+        {
+          "color": "{md.color}",
+          "offsetX": "{md.shadow-2.x}",
+          "offsetY": "{md.shadow-2.y}",
+          "blur": "{md.shadow-2.blur}",
+          "spread": "{md.shadow-2.spread}"
+        },
+        {
+          "color": "{md.color}",
+          "offsetX": "{md.shadow-1.x}",
+          "offsetY": "{md.shadow-1.y}",
+          "blur": "{md.shadow-1.blur}",
+          "spread": "{md.shadow-1.spread}"
+        }
+      ]
+    },
+    "shadow-lg": {
+      "$value": [
+        {
+          "color": "{lg.color}",
+          "offsetX": "{lg.shadow-2.x}",
+          "offsetY": "{lg.shadow-2.y}",
+          "blur": "{lg.shadow-2.blur}",
+          "spread": "{lg.shadow-2.spread}"
+        },
+        {
+          "color": "{lg.color}",
+          "offsetX": "{lg.shadow-1.x}",
+          "offsetY": "{lg.shadow-1.y}",
+          "blur": "{lg.shadow-1.blur}",
+          "spread": "{lg.shadow-1.spread}"
+        }
+      ]
+    },
+    "shadow-xl": {
+      "$value": [
+        {
+          "color": "{xl.color}",
+          "offsetX": "{xl.shadow-2.x}",
+          "offsetY": "{xl.shadow-2.y}",
+          "blur": "{xl.shadow-2.blur}",
+          "spread": "{xl.shadow-2.spread}"
+        },
+        {
+          "color": "{xl.color}",
+          "offsetX": "{xl.shadow-1.x}",
+          "offsetY": "{xl.shadow-1.y}",
+          "blur": "{xl.shadow-1.blur}",
+          "spread": "{xl.shadow-1.spread}"
+        }
+      ]
+    },
+    "shadow-2xl": {
+      "$value": {
+        "color": "{2xl.color}",
+        "offsetX": "{2xl.x}",
+        "offsetY": "{2xl.y}",
+        "blur": "{2xl.blur}",
+        "spread": "{2xl.spread}"
+      }
+    }
+  },
+  "focus": {
+    "$type": "shadow",
+    "focus-ring": {
+      "$value": {
+        "color": "{Semantico.focus.ring}",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 3,
+          "unit": "px"
+        }
+      }
+    },
+    "focus-ring-sidebar": {
+      "$value": {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4392156862745098,
+            0.9058823529411765,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#70e7ff"
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 3,
+          "unit": "px"
+        }
+      }
+    },
+    "focus-ring-error": {
+      "$value": {
+        "color": "{Semantico.focus.ring-error}",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 3,
+          "unit": "px"
+        }
+      }
+    }
+  },
+  "blur": {
+    "blur-light": {
+      "$value": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "radius": {
+            "value": 4,
+            "unit": "px"
+          },
+          "visible": true,
+          "blurType": "NORMAL"
+        }
+      ]
+    },
+    "blur-full": {
+      "$value": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "radius": {
+            "value": 12,
+            "unit": "px"
+          },
+          "visible": true,
+          "blurType": "NORMAL"
+        }
+      ]
+    }
+  }
+}

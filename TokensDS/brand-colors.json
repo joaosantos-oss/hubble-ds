@@ -1,0 +1,182 @@
+{
+  "primaria": {
+    "50": {
+      "$value": "{Falcon.50}"
+    },
+    "100": {
+      "$value": "{Falcon.100}"
+    },
+    "200": {
+      "$value": "{Falcon.200}"
+    },
+    "300": {
+      "$value": "{Falcon.300}"
+    },
+    "400": {
+      "$value": "{Falcon.400}"
+    },
+    "500": {
+      "$value": "{Falcon.500}"
+    },
+    "600": {
+      "$value": "{Falcon.600}"
+    },
+    "700": {
+      "$value": "{Falcon.700}"
+    },
+    "800": {
+      "$value": "{Falcon.800}"
+    },
+    "900": {
+      "$value": "{Falcon.900}"
+    },
+    "950": {
+      "$value": "{Falcon.950}"
+    },
+    "$type": "color"
+  },
+  "secundaria": {
+    "50": {
+      "$value": "{Tailwind.zinc.50}"
+    },
+    "100": {
+      "$value": "{Tailwind.zinc.100}"
+    },
+    "200": {
+      "$value": "{Tailwind.zinc.200}"
+    },
+    "300": {
+      "$value": "{Tailwind.zinc.300}"
+    },
+    "400": {
+      "$value": "{Tailwind.zinc.400}"
+    },
+    "500": {
+      "$value": "{Tailwind.zinc.500}"
+    },
+    "600": {
+      "$value": "{Tailwind.zinc.600}"
+    },
+    "700": {
+      "$value": "{Tailwind.zinc.700}"
+    },
+    "800": {
+      "$value": "{Tailwind.zinc.800}"
+    },
+    "900": {
+      "$value": "{Tailwind.zinc.900}"
+    },
+    "950": {
+      "$value": "{Tailwind.zinc.950}"
+    },
+    "$type": "color"
+  },
+  "sucesso": {
+    "50": {
+      "$value": "{Tailwind.green.50}"
+    },
+    "100": {
+      "$value": "{Tailwind.green.100}"
+    },
+    "200": {
+      "$value": "{Tailwind.green.200}"
+    },
+    "300": {
+      "$value": "{Tailwind.green.300}"
+    },
+    "400": {
+      "$value": "{Tailwind.green.400}"
+    },
+    "500": {
+      "$value": "{Tailwind.green.500}"
+    },
+    "600": {
+      "$value": "{Tailwind.green.600}"
+    },
+    "700": {
+      "$value": "{Tailwind.green.700}"
+    },
+    "800": {
+      "$value": "{Tailwind.green.800}"
+    },
+    "900": {
+      "$value": "{Tailwind.green.900}"
+    },
+    "950": {
+      "$value": "{Tailwind.green.950}"
+    },
+    "$type": "color"
+  },
+  "alerta": {
+    "50": {
+      "$value": "{Tailwind.amber.50}"
+    },
+    "100": {
+      "$value": "{Tailwind.amber.100}"
+    },
+    "200": {
+      "$value": "{Tailwind.amber.200}"
+    },
+    "300": {
+      "$value": "{Tailwind.amber.300}"
+    },
+    "400": {
+      "$value": "{Tailwind.amber.400}"
+    },
+    "500": {
+      "$value": "{Tailwind.amber.500}"
+    },
+    "600": {
+      "$value": "{Tailwind.amber.600}"
+    },
+    "700": {
+      "$value": "{Tailwind.amber.700}"
+    },
+    "800": {
+      "$value": "{Tailwind.amber.800}"
+    },
+    "900": {
+      "$value": "{Tailwind.amber.900}"
+    },
+    "950": {
+      "$value": "{Tailwind.amber.950}"
+    },
+    "$type": "color"
+  },
+  "erro": {
+    "50": {
+      "$value": "{Tailwind.red.50}"
+    },
+    "100": {
+      "$value": "{Tailwind.red.100}"
+    },
+    "200": {
+      "$value": "{Tailwind.red.200}"
+    },
+    "300": {
+      "$value": "{Tailwind.red.300}"
+    },
+    "400": {
+      "$value": "{Tailwind.red.400}"
+    },
+    "500": {
+      "$value": "{Tailwind.red.500}"
+    },
+    "600": {
+      "$value": "{Tailwind.red.600}"
+    },
+    "700": {
+      "$value": "{Tailwind.red.700}"
+    },
+    "800": {
+      "$value": "{Tailwind.red.800}"
+    },
+    "900": {
+      "$value": "{Tailwind.red.900}"
+    },
+    "950": {
+      "$value": "{Tailwind.red.950}"
+    },
+    "$type": "color"
+  }
+}
